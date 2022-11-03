@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  app:  
+    build: './src/app'
+    volumes:
+      - './src/app:/app'
+    ports:
+      - '80:8081'
