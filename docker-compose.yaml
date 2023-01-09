@@ -5,3 +5,7 @@ services:
     build: './src/app'
     volumes:
       - './src/app:/app'
+
+  github-release:
+    image: 'github-release'
+    build: './src/app'
