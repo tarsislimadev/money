@@ -1,4 +1,4 @@
-FROM cirrusci/flutter:3.3.10
+FROM tmvdl/android:flutter
 
 WORKDIR /app
 
