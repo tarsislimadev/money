@@ -1,0 +1,29 @@
+name: Docker push
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 * * * *'
+  push:
+    branches: 
+      - 'main'
+
+jobs:
+  docker-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v2
+
+      - name: Docker Login
+        uses: docker/login-action@v1 
+        with:
+          username: tmvdl
+          password: ${{ secrets.GITHUBDOCKER }}
+
+      - name: Docker build
+        run: docker-compose build docker-push
+
+      - name: Docker push
+        run: docker push tmvdl/projects -a
+

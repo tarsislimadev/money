@@ -9,3 +9,7 @@ services:
   github-release:
     image: 'github-release'
     build: './src/app'
+
+  docker-push:
+    image: 'tmvdl/projects:finance'
+    build: './src/app'
