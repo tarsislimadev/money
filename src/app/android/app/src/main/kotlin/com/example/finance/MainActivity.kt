@@ -1,4 +1,4 @@
-package com.example.finance
+package com.example.sconomy
 
 import io.flutter.embedding.android.FlutterActivity
 

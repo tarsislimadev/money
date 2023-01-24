@@ -11,5 +11,5 @@ services:
     build: './src/app'
 
   docker-push:
-    image: 'tmvdl/projects:finance'
+    image: 'tmvdl/projects:sconomy'
     build: './src/app'

@@ -1,6 +1,6 @@
 {
-    "name": "finance",
-    "short_name": "finance",
+    "name": "sconomy",
+    "short_name": "sconomy",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

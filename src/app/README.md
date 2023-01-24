@@ -1,4 +1,4 @@
-# finance
+# sconomy
 
 A new Flutter project.
 
