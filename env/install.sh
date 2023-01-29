@@ -1,1 +1,1 @@
-docker-compose -f ./docker-compose.yaml run app npm i
+docker-compose run app npm i
