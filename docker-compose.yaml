@@ -4,7 +4,7 @@ services:
   app:  
     build: './src/app'
     volumes:
-      - './src/app:/app'
+      - './src/app/html:/usr/share/nginx/html'
 
   github-release:
     image: 'github-release'
