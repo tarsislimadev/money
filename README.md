@@ -22,6 +22,15 @@
 
 ## How to
 
+### GitHub
+
+```
+wget https://github.com/brtmvdl/money/releases/download/latest/app-debug.apk \
+    --output-file=money.apk
+```
+
+### Docker
+
 ```
 bash env/pull.sh
 
